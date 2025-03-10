@@ -37,3 +37,4 @@ DWORD_PTR scriptGlobal::get()
 	g_pMemMan->readMem<DWORD_PTR>((DWORD_PTR)g_pHack->m_hModule + ADDRESS_GLOBAL + 8 * ((m_index >> 0x12) & 0x3F), &dwpBuffer);
 	return 8 * (m_index & 0x3FFFF) + dwpBuffer;
 }
+
