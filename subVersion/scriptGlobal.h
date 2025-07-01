@@ -20,3 +20,4 @@ private:
 	DWORD_PTR get();
 	std::size_t m_index;
 };
+
